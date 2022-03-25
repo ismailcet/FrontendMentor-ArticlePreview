@@ -21,3 +21,35 @@
   padding: 0;
   box-sizing: border-box;
 }
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+body {
+  font-family: var(--ff-primary);
+  font-size: 16px;
+  background: var(--clr-Grayish-Blue);
+}
+img {
+  width: 100%;
+}
+.section {
+  margin: 5rem 1.5rem;
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.center-img {
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+.container {
+  padding: 2.25rem 2rem 0 2rem;
+}
+.title {
+  text-align: start
+  color: var(--clr-Very-Dark-Grayish-Blue);
+  margin-bottom: 1.25rem;
+}
